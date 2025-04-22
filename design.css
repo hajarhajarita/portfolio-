@@ -1,0 +1,180 @@
+body {
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
+    background-color: #ffffff; /* Bleu foncé pour l'arrière-plan */
+    color: #2b2929; /* Texte clair pour contraster avec le bleu foncé */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #f0f3f3, #3c6e8f); /* Dégradé de bleu foncé à un bleu plus clair */
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    border-bottom: 4px solid #2a5578; /* Bordure bleu foncé */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #4c6a8b; /* Bleu moyen pour les titres */
+    font-size: 1.8rem;
+    border-bottom: 2px solid #3c6e8f; /* Bordure dans un bleu plus clair */
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.project {
+    background-color: #e5f1f8; /* Fond blanc pour les cartes de projet */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border-left: 6px solid #1a3d66; /* Bordure bleu foncé pour les projets */
+}
+
+.project h3 {
+    color: #1a3d66; /* Bleu foncé pour les titres de projet */
+    margin-top: 0;
+}
+
+.project a {
+    color: #1a3d66; /* Bleu foncé pour les liens */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #2a5578; /* Bleu foncé pour les boutons */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #1a3d66; /* Bleu foncé au survol */
+}
+
+form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #3c6e8f; /* Bordure bleu plus clair pour les champs de saisie */
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+form button {
+    background-color: #3c6e8f; /* Bleu clair pour le bouton */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2a5578; /* Bleu foncé au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e5f1f8; /* Couleur très claire pour le pied de page */
+    color: #1a3d66; /* Bleu foncé pour le texte du footer */
+    border-top: 2px dashed #3c6e8f; /* Bordure bleu clair */
+}
+.about-content {
+    display: flex; /* Utilise Flexbox pour aligner l'image et le texte */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    gap: 100px; /* Ajoute un espace entre l'image et le texte */
+}
+
+/* Style de la photo */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    /* Pour une image ronde */
+    object-fit: cover; /* Assure que l'image garde son ratio sans déformation */
+}
+
+/* Style du texte */
+.about-text h2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #555555;
+}
+
+.github-link {
+    background-color: #24292e;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.github-link:hover {
+    background-color: #0366d6;
+}
+
+#valeurs {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+#valeurs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#valeurs p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
